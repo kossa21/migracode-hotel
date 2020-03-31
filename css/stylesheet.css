@@ -2,3 +2,91 @@ body {
     margin: 0;
     padding: 0; 
 }
+ 
+.header-nav {
+    height: 75px;
+}
+
+.navbar-brand {
+    width: 210px;
+    height: 100%;
+}
+
+.main-banner-row {
+    max-width: 100%;
+    margin: 0;
+}
+
+.main-banner {
+    height: 400px;
+    padding: 0;
+}
+
+.main-hotel {
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.banner-content {
+    position: absolute;
+    top: 30px;
+}
+
+.hotel-search {
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 75%;
+}
+
+.hotel-search label {
+    text-align: left;
+}
+
+/* .guests-rooms {
+    margin-left: 0;
+    padding-left: 0;
+} */
+
+/*Media query for tablets only (768px to 991px)*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hotel-search {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .navbar-collapse.collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+}
+
+/*Media query for mobiles (768px and over) */
+@media screen and (max-width: 767px) {
+    .main-banner {
+        height: 700px;
+    }
+
+    .hotel-search {
+        padding: 0 15px;
+    }
+}
