@@ -14,7 +14,6 @@
 
     <div class="container-fluid p-0 header-nav">
       <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light py-0">
-        
         <a class="navbar-brand" href="#">
           <img src="img/migracode-logo.png" alt="">
           Hotel!
@@ -37,15 +36,15 @@
 
 
 
-    <section class="container-fluid p-0">
+    <section class="container-fluid p-0 mb-5">
       <div class="row main-banner-row">
           <div class="col-12 text-white d-flex justify-content-center main-banner">
               <img class="img-fluid main-hotel" src="img/main-hotel.jpg">
               <div class="banner-content w-100">
-                <h1 class="text-white text-center">Find your hotel</h1>
-                <p class="mt-4 text-center px-2">Select the room, destination and date that matches your needs the best!</p>
+                <h1 class="text-white font-weight-bold text-center mt-4">Find your hotel</h1>
+                <p class="mt-4 text-center px-4 h4">Select the room, destination and date that matches your needs the best!</p>
 
-                <form action="" class="form-row pt-1 mx-auto hotel-search mt-5">
+                <form action="" class="form-row py-4 px-md-2 mx-auto hotel-search mt-5">
                   <div class="form-group col-md-4">
                     <label for="location">Where to go</label>
                     <input type="text" class="form-control" name="location" placeholder="Country, city... ">
@@ -66,8 +65,8 @@
                     <label for="guests">Guests</label>
                     <input type="number" class="form-control" name="guests" value="1">
                   </div>
-                  <div class="form-group col-12 col-sm-2 align-self-end">
-                    <input class="btn btn-danger d-block mx-auto px-5" type="submit" value="Search">
+                  <div class="form-group col-12 col-md-2 align-self-end">
+                    <input class="btn btn-danger d-block mx-auto px-4" type="submit" value="Search">
                   </div>
                 </div>
               </div>
@@ -77,12 +76,85 @@
 
 
 
-  <section class="container top-destinations-container">
-    <h1>Top destinations to visit</h1>
 
-    <div class="row">
-      <div class="card">
-        
+  <section class="container text-left top-hotels-container">
+    <h2 class="mb-5">Top Hotels</h1>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-3">
+        <div class="card">
+          <img src="img/hotel1.jpg" alt="hotel room" class="card-image-top image-fluid">
+
+          <div class="card-body">
+            <p class="star-row">
+              <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+              <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+              <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+              <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+            </p>
+            <h5 class="card-text">Example hotel 1</h5>
+            <p>Starting on <span class="hotel-price">$50</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card">
+          <img src="img/barcelona.jpg" alt="picture of barcelona" class="card-image-top image-fluid">
+
+          <div class="card-body">
+            <h4 class="card-text">Barcelona</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card">
+          <img src="img/sevilla.jpg" alt="picture of sevilla" class="card-image-top image-fluid">
+
+          <div class="card-body">
+            <h4 class="card-text">Sevilla</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="container text-center top-destinations-container">
+    <h2 class="mb-5">Top destinations</h1>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-3">
+        <div class="card">
+          <img src="img/hotel1.jpg" alt="hotel room" class="card-image-top image-fluid">
+
+          <div class="card-body">
+            <h4 class="card-text">Example 1</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card">
+          <img src="img/barcelona.jpg" alt="picture of barcelona" class="card-image-top image-fluid">
+
+          <div class="card-body">
+            <h4 class="card-text">Barcelona</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card">
+          <img src="img/sevilla.jpg" alt="picture of sevilla" class="card-image-top image-fluid">
+
+          <div class="card-body">
+            <h4 class="card-text">Sevilla</h2>
+          </div>
+        </div>
       </div>
     </div>
   </section>
